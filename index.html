@@ -1,92 +1,33 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sushanth | AutoCAD Draftsman</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      color: #172033;
-      background: #f5f7fb;
-      line-height: 1.6;
-    }
-    header {
-      background: #14243d;
-      color: white;
-      padding: 55px 8%;
-    }
-    header h1 { font-size: 42px; margin: 8px 0; }
-    header p { color: #d3deed; }
-    nav { padding: 16px 8%; background: white; }
-    nav a { margin-right: 22px; color: #245da8; text-decoration: none; }
-    main { max-width: 1050px; margin: auto; padding: 30px 20px; }
-    section {
-      background: white;
-      padding: 28px;
-      margin-bottom: 22px;
-      border-radius: 10px;
-    }
-    h2 { color: #245da8; }
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit,minmax(210px,1fr));
-      gap: 15px;
-    }
-    .service {
-      padding: 18px;
-      background: #eef4fc;
-      border-radius: 8px;
-    }
-    .project {
-      padding: 18px;
-      border: 1px solid #dce3ed;
-      border-radius: 8px;
-      margin: 12px 0;
-    }
-    .button {
-      display: inline-block;
-      padding: 11px 18px;
-      background: #2875d0;
-      color: white;
-      border-radius: 6px;
-      text-decoration: none;
-      margin: 8px 8px 0 0;
-    }
-    footer {
-      text-align: center;
-      padding: 25px;
-      color: #65728a;
-    }
-  </style>
-  
-.hero {
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sushanth | AutoCAD Draftsman</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #172033;
+}
+header {
   background: #14243d;
   color: white;
-  padding: 55px 8%;
+  padding: 65px 8%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 40px;
   flex-wrap: wrap;
 }
-
-.hero-text {
-  flex: 1;
-  min-width: 260px;
-}
-
-.hero-text h1 {
-  font-size: 42px;
-}
-
-.hero-text h2 {
-  color: #d3deed;
-}
-
+.hero-text { flex: 1; min-width: 260px; }
+header h1 { font-size: 46px; margin: 12px 0; }
+header h2 { color: #cbd9ec; font-size: 22px; }
+header p { color: #d3deed; }
 .profile img {
   width: 250px;
   height: 280px;
@@ -95,18 +36,55 @@
   border-radius: 18px;
   border: 4px solid white;
 }
-
-@media (max-width: 600px) {
-  .hero {
-    flex-direction: column-reverse;
-    text-align: center;
-  }
+nav {
+  background: white;
+  padding: 18px 8%;
 }
-
+nav a {
+  margin-right: 22px;
+  color: #245da8;
+  text-decoration: none;
+}
+main { max-width: 1050px; margin: auto; padding: 30px 20px; }
+section {
+  background: white;
+  padding: 30px;
+  margin-bottom: 22px;
+  border-radius: 10px;
+}
+h2 { color: #245da8; }
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 15px;
+}
+.service, .project {
+  padding: 20px;
+  background: #eef4fc;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #2875d0;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #65728a;
+}
+@media(max-width:600px) {
+  header { flex-direction: column-reverse; text-align: center; }
+}
+</style>
 </head>
 <body>
-  
-<header class="hero">
+
+<header>
   <div class="hero-text">
     <p>AUTOCAD DRAFTSMAN | CIVIL ENGINEERING</p>
     <h1>Hi, I'm Sushanth.</h1>
@@ -116,78 +94,50 @@
   </div>
 
   <div class="profile">
-    <img
-      src="ChatGPT%20Image%20Aug%2018%2C%202026%2C%2009_07_18%20PM.png"
-      alt="Sushanth - AutoCAD Draftsman">
+    <img src="ChatGPT%20Image%20Aug%2018%2C%202026%2C%2009_07_18%20PM.png"
+         alt="Sushanth - AutoCAD Draftsman">
   </div>
 </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I am a Diploma in Civil Engineering professional with practical
-        experience in AutoCAD drafting, drawing revisions, and coordination
-        with engineering and site teams. I help architects, engineers,
-        contractors, and designers with accurate 2D CAD drawings.
-      </p>
-    </section>
+<main>
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a Diploma in Civil Engineering professional with practical experience in AutoCAD drafting, drawing revisions, and coordination with engineering and site teams.</p>
+</section>
 
-    <section id="services">
-      <h2>My Services</h2>
-      <div class="services">
-        <div class="service">
-          <h3>2D Floor Plans</h3>
-          <p>Residential floor plans and house layouts.</p>
-        </div>
-        <div class="service">
-          <h3>PDF to DWG</h3>
-          <p>Convert supplied sketches, images, and PDFs into editable CAD drawings.</p>
-        </div>
-        <div class="service">
-          <h3>Elevations & Sections</h3>
-          <p>Architectural drawing drafting from supplied design information.</p>
-        </div>
-        <div class="service">
-          <h3>Drawing Revisions</h3>
-          <p>Corrections, modifications, and drawing updates.</p>
-        </div>
-      </div>
-    </section>
+<section id="services">
+  <h2>My Services</h2>
+  <div class="services">
+    <div class="service"><h3>2D Floor Plans</h3><p>Residential plans and house layouts.</p></div>
+    <div class="service"><h3>PDF to DWG</h3><p>Convert supplied sketches and PDFs into editable CAD drawings.</p></div>
+    <div class="service"><h3>Elevations & Sections</h3><p>Drafting from supplied design information.</p></div>
+    <div class="service"><h3>Drawing Revisions</h3><p>Corrections and drawing modifications.</p></div>
+  </div>
+</section>
 
-    <section id="portfolio">
-      <h2>My Portfolio</h2>
-      <p>My selected AutoCAD projects will be displayed here.</p>
-      <div class="project">
-        <h3>Project 01 — Residential Floor Plan</h3>
-        <p>Project preview and PDF drawing will be added here.</p>
-      </div>
-      <div class="project">
-        <h3>Project 02 — PDF to DWG Conversion</h3>
-        <p>Before-and-after drawing samples will be added here.</p>
-      </div>
-      <div class="project">
-        <h3>Project 03 — Elevation and Section</h3>
-        <p>Drawing preview and PDF will be added here.</p>
-      </div>
-    </section>
+<section id="portfolio">
+  <h2>My Portfolio</h2>
+  <div class="project"><h3>Project 01 — Residential Floor Plan</h3><p>Drawing sample coming soon.</p></div>
+  <div class="project"><h3>Project 02 — PDF to DWG</h3><p>Drawing sample coming soon.</p></div>
+  <div class="project"><h3>Project 03 — Elevation and Section</h3><p>Drawing sample coming soon.</p></div>
+</section>
 
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>Available for remote AutoCAD drafting projects and freelance support.</p>
-      <p>Fiverr: @sushanthcad</p>
-      <p>Email: Add your professional email here</p>
-      <p>LinkedIn: Add your LinkedIn profile link here</p>
-    </section>
-  </main>
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Available for remote AutoCAD drafting projects.</p>
+  <p>Fiverr: @sushanthcad</p>
+  <p>Email: Add your professional email</p>
+  <p>LinkedIn: Add your LinkedIn profile link</p>
+</section>
+</main>
 
-  <footer>© 2026 Sushanth | AutoCAD Drafting Portfolio</footer>
+<footer>© 2026 Sushanth | AutoCAD Drafting Portfolio</footer>
 </body>
 </html>
